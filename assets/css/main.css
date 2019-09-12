@@ -26,3 +26,43 @@
 .thirdbox{
  clear: both;
 }
+
+p{
+ display: block;
+ position: absolute;
+ visibility: hidden;
+}
+
+.displaybox:hover p{
+ visibility: visible;
+}
+
+p#first{
+ left: 110px;
+ top:220px;
+}
+
+p#second{
+ left: 330px;
+ top:220px;
+}
+
+p#third{
+ left:560px;
+ top:220px;
+}
+
+p#fourth{
+ top:500px;
+ left:110px;
+}
+
+p#fifth{
+ top:500px;
+ left: 330px;
+}
+
+p#sixth{
+ top:500px;
+ left:560px;
+}
