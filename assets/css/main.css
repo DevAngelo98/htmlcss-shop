@@ -30,11 +30,48 @@
 p{
  display: block;
  position: absolute;
+}
+
+.visibility{
  visibility: hidden;
 }
 
 .displaybox:hover p{
  visibility: visible;
+}
+
+.thirty{
+ background-color: green;
+ margin: 0;
+}
+
+#firstsale{
+ left: 191px;
+}
+
+.five{
+ background-color: red;
+ margin: 0;
+}
+
+#secondsale{
+ left: 423px;
+}
+
+#thirdsale{
+ left: 639px;
+}
+
+#fourthsale{
+ left: 191px;
+}
+
+#fifthsale{
+ left: 423px;
+}
+
+#sixthsale{
+ left: 639px;
 }
 
 p#first{
